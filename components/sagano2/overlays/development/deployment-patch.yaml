@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/jboyer-tenant/sagano2/sagano2@sha256:b8f33b2adfc44f362f3c16f85cb5a19e4647c79911a4faca94ab53729e231d3a
+      - image: quay.io/redhat-user-workloads/jboyer-tenant/sagano2/sagano2@sha256:e5d290fa11b8517ea218ea3cdb7f814b749a670dde0fa19e2984af18255b1bb6
         name: container-image
         resources: {}
 status: {}
