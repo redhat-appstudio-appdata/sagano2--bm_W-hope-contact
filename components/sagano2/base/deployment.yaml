@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: sagano2
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/jboyer-tenant/sagano2/sagano2@sha256:b8f33b2adfc44f362f3c16f85cb5a19e4647c79911a4faca94ab53729e231d3a
         imagePullPolicy: Always
         name: container-image
         ports:
