@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: sagano2
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/jboyer-tenant/sagano2/sagano2@sha256:b8f33b2adfc44f362f3c16f85cb5a19e4647c79911a4faca94ab53729e231d3a
+        name: container-image
+        resources: {}
+status: {}
